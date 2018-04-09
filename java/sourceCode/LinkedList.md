@@ -89,5 +89,5 @@ E unlink(Node<E> x) {
 * 在Iterator迭代器操作时，不能直接去操作链表本身，不然会发生expectedModCount和modCount不一致的情况。
 而在Iterator中的所有操作前都会检查expectedModCount和modCount的值是否相等
 
-## 遗留
+## Remain
 Spliterator
