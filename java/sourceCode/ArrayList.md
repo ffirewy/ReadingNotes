@@ -35,6 +35,7 @@ private boolean batchRemove(Collection<?> c, boolean complement) {
 ## Detail
 * ArrayList在插入时，如果使用add(E element)，则时间复杂度为O(1)，并不是O(n)
 * SubList并不是新建一个数组，可以理解为对原链表某一段进行直接操作
+* elementData数组的最大大小为0x7fffffff-8，原因为有的虚机在数组里保留了一些标题字
 
 ## Remain
 Spliterator
