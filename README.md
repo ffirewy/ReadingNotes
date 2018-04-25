@@ -8,3 +8,4 @@
   * ##### [Stack](https://github.com/ffirewy/ReadingNotes/blob/master/java/sourceCode/Stack.md)
 #### Set
 ### Map
+#### HashMap
